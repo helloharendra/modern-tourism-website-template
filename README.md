@@ -146,14 +146,20 @@ Founder - Naya Prayog Technology & Academy</p>
 
 ---
 
-<h2>⭐ Support</h2>
+## 💼 Hire Me & Support My Work
 
-<ul>
-  <li>⭐ Star this repo</li>
-  <li>🍴 Fork it</li>
-  <li>📢 Share it</li>
-</ul>
+### 🤝 Available for Projects
+I'm open to **Flutter development**, **API integrations**, and **consulting work**.
 
+📱 **Phone/WhatsApp**: [+91 7991327022](https://wa.me/917991327022)  
+📧 **Email**: [harendraprajapati72@gmail.com](mailto:harendraprajapati72@gmail.com)  
+🌐 **Website**: [nayaproyog.com](https://nayaproyog.com)  
+💻 **Portfolio**: [github.helloharendra.io](https://github.helloharendra.io)  
+
+### ☕ Buy Me a Coffee
+If you appreciate my work, consider supporting me:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/helloharendra)
 ---
 
 <h2>📄 License</h2>
