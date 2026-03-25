@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { DestinationCard } from './destination-card';
+import Link from 'next/link';
 
 const destinations = [
   {
@@ -133,6 +134,25 @@ export function FeaturedDestinations() {
               index={index}
             />
           ))}
+        </motion.div>
+
+        {/* View More Button */}
+        <motion.div
+          className="flex justify-center mt-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+        >
+          <Link href="/destinations">
+            <motion.button
+              className="px-8 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Explore All Destinations
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </section>

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,9 +74,11 @@ export function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Button className="bg-accent hover:bg-accent/90 text-white rounded-lg font-semibold">
-              Book Now
-            </Button>
+            <Link href="/booking">
+              <Button className="bg-accent hover:bg-accent/90 text-white rounded-lg font-semibold">
+                Book Now
+              </Button>
+            </Link>
           </motion.div>
         </div>
 
@@ -118,9 +121,11 @@ export function Header() {
             transition={{ delay: navItems.length * 0.1 }}
             className="pt-4"
           >
-            <Button className="w-full bg-accent hover:bg-accent/90 text-white rounded-lg font-semibold">
-              Book Now
-            </Button>
+            <Link href="/booking" className="block">
+              <Button className="w-full bg-accent hover:bg-accent/90 text-white rounded-lg font-semibold">
+                Book Now
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </motion.div>

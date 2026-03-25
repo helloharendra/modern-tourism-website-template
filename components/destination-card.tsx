@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Star, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 interface DestinationCardProps {
   id: string;
@@ -106,9 +107,11 @@ export function DestinationCard({
           whileHover={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-lg font-semibold">
-            View Details
-          </Button>
+          <Link href={`/destinations/${id}`} className="block">
+            <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-lg font-semibold">
+              View Details
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </motion.div>

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Search } from 'lucide-react';
+import Link from 'next/link';
 
 export function Hero() {
   const [scrollY, setScrollY] = useState(0);
@@ -105,12 +106,14 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-white px-10 h-12 rounded-lg font-semibold text-base"
-            >
-              Explore Destinations
-            </Button>
+            <Link href="/destinations">
+              <Button
+                size="lg"
+                className="bg-accent hover:bg-accent/90 text-white px-10 h-12 rounded-lg font-semibold text-base"
+              >
+                Explore Destinations
+              </Button>
+            </Link>
             <Button
               size="lg"
               variant="outline"

@@ -9,6 +9,8 @@ import { Button } from '@/components/ui/button';
 import { Star, Users, MapPin, Clock, DollarSign } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 const destinationDetails: Record<string, any> = {
   '1': {
@@ -84,13 +86,17 @@ Whether you seek adventure, relaxation, spiritual awakening, or cultural immersi
 export default function DestinationDetailPage({ params }: { params: { id: string } }) {
   const destination = destinationDetails[params.id] || destinationDetails['1'];
   const [selectedDates, setSelectedDates] = useState('');
+  const router = useRouter();
 
   const handleBooking = () => {
-    if (selectedDates) {
-      toast.success('Booking request submitted! Our team will contact you soon.');
-    } else {
-      toast.error('Please select your travel dates');
+    if (!selectedDates) {
+      toast.error('Please select travel dates');
+      return;
     }
+    toast.success('Proceeding to booking...');
+    setTimeout(() => {
+      router.push('/booking');
+    }, 500);
   };
 
   const containerVariants = {
