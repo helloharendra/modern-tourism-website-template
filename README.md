@@ -1,35 +1,161 @@
-# v0-tourism-website-design
+<h1 align="center">🌍 Modern Tourism Website Template</h1>
+<h3 align="center">🚀 Production-Ready Travel & Booking Platform (Next.js)</h3>
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+<p align="center">
+  <a href="https://v0-nayaprayogacademy.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-View%20Project-blue?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Next.js-Production-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deployment-Vercel-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
-## Built with v0
+---
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+<h2>✨ About This Project</h2>
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_iopFDnhdnYgJfm9SX5rw5Aj02nt0)
+<p>
+A <b>premium, modern tourism website template</b> designed for building scalable and high-converting travel platforms.
+</p>
 
-## Getting Started
+<ul>
+  <li>🌍 Travel agencies</li>
+  <li>🧳 Tour booking startups</li>
+  <li>🚀 SaaS travel platforms</li>
+  <li>🏨 Hospitality businesses</li>
+</ul>
 
-First, run the development server:
+<p>
+Built with <b>performance, scalability, and modern UI/UX</b> to help you launch faster and look professional.
+</p>
 
-```bash
+---
+
+<h2>🎯 Why Choose This Template?</h2>
+
+<ul>
+  <li>✅ Clean, modern UI that builds trust</li>
+  <li>✅ Built with latest Next.js architecture</li>
+  <li>✅ Perfect for real client projects</li>
+  <li>✅ Easy to customize & scale</li>
+  <li>✅ Optimized for SEO & performance</li>
+</ul>
+
+---
+
+<h2>🔥 Features</h2>
+
+<ul>
+  <li>⚡ Lightning-fast performance</li>
+  <li>📱 Fully responsive (mobile-first)</li>
+  <li>🎯 Conversion-focused design</li>
+  <li>🌐 Tourism-specific UI sections</li>
+  <li>🧩 Reusable components</li>
+  <li>🎨 Easy customization</li>
+  <li>🚀 Ready to deploy</li>
+</ul>
+
+---
+
+<h2>🛠️ Tech Stack</h2>
+
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td>Next.js</td>
+    <td>Frontend Framework</td>
+  </tr>
+  <tr>
+    <td>React</td>
+    <td>UI Library</td>
+  </tr>
+  <tr>
+    <td>Tailwind CSS</td>
+    <td>Styling</td>
+  </tr>
+  <tr>
+    <td>JavaScript / TypeScript</td>
+    <td>Logic</td>
+  </tr>
+  <tr>
+    <td>Vercel</td>
+    <td>Deployment</td>
+  </tr>
+  <tr>
+    <td>v0 AI</td>
+    <td>UI Generation</td>
+  </tr>
+</table>
+
+---
+
+<h2>📂 Folder Structure</h2>
+
+<pre>
+/app          # App router
+/components   # UI components
+/styles       # Styling
+/public       # Assets
+</pre>
+
+---
+
+<h2>⚡ Quick Start</h2>
+
+<pre>
+git clone https://github.com/your-username/modern-tourism-website-template.git
+cd modern-tourism-website-template
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+</pre>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>👉 Open: http://localhost:3000</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-## Learn More
+<h2>🎯 Use Cases</h2>
 
-To learn more, take a look at the following resources:
+<ul>
+  <li>🌍 Travel Agency Website</li>
+  <li>🧳 Tour Booking Platform</li>
+  <li>🚀 Startup MVP</li>
+  <li>💼 Client Projects</li>
+  <li>🏨 Hotel / Resort Website</li>
+</ul>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+---
 
-<a href="https://v0.app/chat/api/kiro/clone/helloharendra/v0-tourism-website-design" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+<h2>💼 Available for Work</h2>
+
+<p><b>Harendra Prajapati</b><br/>
+Founder - Naya Prayog Technology & Academy</p>
+
+<ul>
+  <li>🚀 SaaS Platforms</li>
+  <li>📱 Mobile Apps (Flutter)</li>
+  <li>🌐 Web Apps (React, Next.js)</li>
+  <li>🤖 AI Solutions</li>
+</ul>
+
+<p>🌍 Available for international freelance & remote projects</p>
+
+<p><b>📩 Let’s build something amazing together</b></p>
+
+---
+
+<h2>⭐ Support</h2>
+
+<ul>
+  <li>⭐ Star this repo</li>
+  <li>🍴 Fork it</li>
+  <li>📢 Share it</li>
+</ul>
+
+---
+
+<h2>📄 License</h2>
+
+<p>MIT License</p>
